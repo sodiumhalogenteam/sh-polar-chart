@@ -20,10 +20,17 @@ function App() {
     Legend
   );
   const data = {
-    labels: ["Thing 1", "Thing 2", "Thing 3", "Thing 4", "Thing 5", "Thing 6"],
+    labels: [
+      "Profit",
+      "Skiil-up potential",
+      "Expertise",
+      "Social benefit",
+      "Relationship",
+      "Lead Potential",
+    ],
     datasets: [
       {
-        label: "# of Votes",
+        label: "Place Name of Project here",
         data: [2, 9, 3, 5, 2, 3],
         backgroundColor: "rgba(255, 99, 132, 0.2)",
         borderColor: "rgba(255, 99, 132, 1)",
